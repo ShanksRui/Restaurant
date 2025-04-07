@@ -24,7 +24,7 @@ public class Pedido {
 	public void printItemsPedidos() {
 		 for(ItemPedido item: listItems) {
 			System.out.println("name dish:"+item.getNomePrato()+" | quantity:"+item.getQuantidade()+
-					" | price:"+item.getpreço());
+					" | price:$"+item.getpreço());
 		}
 	}
 	public Status getStatus() {
